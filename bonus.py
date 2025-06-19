@@ -6,5 +6,7 @@ def reverse(num):
         result += "\n"
     return result
 
+print(reverse.__doc__)
+
 res = reverse(5)
 print(res)
